@@ -1,0 +1,1 @@
+export type BookRef = { pageFlip: () => { flipNext(): void; flipPrev(): void } | undefined };
